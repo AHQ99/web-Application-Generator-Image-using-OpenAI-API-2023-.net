@@ -1,0 +1,34 @@
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\bin\Debug\net6.0\appsettings.json
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\bin\Debug\net6.0\img generator.staticwebassets.runtime.json
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\bin\Debug\net6.0\img generator.exe
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\bin\Debug\net6.0\img generator.deps.json
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\bin\Debug\net6.0\img generator.runtimeconfig.json
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\bin\Debug\net6.0\img generator.dll
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\bin\Debug\net6.0\img generator.pdb
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\img generator.csproj.AssemblyReference.cache
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\img generator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\img generator.AssemblyInfoInputs.cache
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\img generator.AssemblyInfo.cs
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\img generator.csproj.CoreCompileInputs.cache
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\img generator.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\img generator.RazorAssemblyInfo.cache
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\img generator.RazorAssemblyInfo.cs
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\staticwebassets\msbuild.img generator.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\staticwebassets\msbuild.build.img generator.props
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.img generator.props
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.img generator.props
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\scopedcss\bundle\img generator.styles.css
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\scopedcss\projectbundle\img generator.bundle.scp.css
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\img generator.csproj.CopyComplete
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\img generator.dll
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\refint\img generator.dll
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\img generator.pdb
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\img generator.genruntimeconfig.cache
+C:\Users\ahalq\OneDrive\سطح المكتب\img generator\img generator\obj\Debug\net6.0\ref\img generator.dll

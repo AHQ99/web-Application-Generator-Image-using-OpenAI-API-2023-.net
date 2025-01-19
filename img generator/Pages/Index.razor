@@ -1,0 +1,342 @@
+﻿@page "/"
+
+<PageTitle>Generate img</PageTitle>
+
+<h1>Generate img</h1>
+<div class="formbold-main-wrapper">
+  <!-- Author: FormBold Team -->
+  <!-- Learn More: https://formbold.com -->
+  <div class="formbold-form-wrapper">
+        
+    <form action="https://formbold.com/s/FORM_ID" method="POST">
+      <div class="formbold-input-wrapp formbold-mb-3">
+        
+
+        <div>
+          <div>
+
+                        <label for="object" class="formbold-form-label"> Main object </label>
+                        <input @bind="mainobject" type="text"
+                               name="firstname"
+                               id="firstname"
+                               
+                               class="formbold-form-input" />
+
+          </div>
+             <div>
+
+                        <label for="focus" class="formbold-form-label"> Focus detail </label>
+                        <input @bind="focus" type="text"
+                               name="lastname"
+                               id="lastname"
+                               
+                               class="formbold-form-input" />
+
+             </div>       
+                    
+        </div>
+      </div>
+            <div class="formbold-input-wrapp formbold-mb-3">
+
+
+                <div>
+                    <div>
+
+                        <label for="adjective1" class="formbold-form-label"> Adjective 1 </label>
+                        <input @bind="adjective1" type="text"
+                               name="firstname"
+                               id="firstname"
+                               
+                               class="formbold-form-input" />
+
+                    </div>
+                    <div>
+
+                        <label for="adjective2" class="formbold-form-label"> Adjective 2 </label>
+                        <input @bind="adjective2" type="text"
+                               name="lastname"
+                               id="lastname"
+                               
+                               class="formbold-form-input" />
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="formbold-input-wrapp formbold-mb-3">
+
+
+                <div>
+                    <div>
+
+                        <label for="style1" class="formbold-form-label"> Visual style 1 </label>
+                        <input @bind="style1" type="text"
+                               name="firstname"
+                               id="firstname"
+                               
+                               class="formbold-form-input" />
+
+                    </div>
+                    <div>
+
+                        <label for="style2" class="formbold-form-label"> Visual style 1 </label>
+                        <input @bind="style2" type="text"
+                               name="lastname"
+                               id="lastname"
+                               
+                               class="formbold-form-input" />
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="formbold-input-wrapp formbold-mb-3">
+
+
+                <div>
+                    <div>
+
+                        <label for="style3" class="formbold-form-label"> Visual style 3 </label>
+                        <input @bind="style3" type="text"
+                               name="firstname"
+                               id="firstname"
+                               
+                               class="formbold-form-input" />
+
+                    </div>
+                    <div>
+
+                        <label for="reference" class="formbold-form-label"> Artist reference </label>
+                        <input @bind="reference" type="text"
+                               name="lastname"
+                               id="lastname"
+                               class="formbold-form-input" />
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            
+    </form>
+        <button @onclick="Generateimge" class="formbold-btnChang">Generate img</button>
+  </div>
+</div>
+<style>
+ 
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+  .formbold-mb-3 {
+    margin-bottom: 15px;
+  }
+  .formbold-relative {
+    position: relative;
+  }
+  .formbold-opacity-0 {
+    opacity: 0;
+  }
+  .formbold-stroke-current {
+    stroke: #ffffff;
+    z-index: 999;
+  }
+  
+
+  .formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+  }
+
+  .formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 570px;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    margin-left:0px;
+  }
+
+    .img {
+        margin: 0 auto;
+        max-width: auto;
+        width: 100%;
+        max-width:700px;
+        padding: 20px;
+        margin-left: 0px;
+    }
+
+  
+
+  .formbold-input-wrapp > div {
+    display: flex;
+    gap: 20px;
+  }
+
+  
+  .formbold-form-input {
+    width: 100%;
+    padding: 13px 22px;
+    border-radius: 5px;
+    border: 1px solid #dde3ec;
+    background: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    color: #536387;
+    outline: none;
+    resize: none;
+  }
+  .formbold-form-input::placeholder,
+  select.formbold-form-input,
+  .formbold-form-input[type='date']::-webkit-datetime-edit-text,
+  .formbold-form-input[type='date']::-webkit-datetime-edit-month-field,
+  .formbold-form-input[type='date']::-webkit-datetime-edit-day-field,
+  .formbold-form-input[type='date']::-webkit-datetime-edit-year-field {
+    color: rgba(83, 99, 135, 0.5);
+  }
+
+  .formbold-form-input:focus {
+    border-color: #6a64f1;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+  .formbold-form-label {
+    color: #536387;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .formbold-checkbox-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+    margin-top: 2px;
+    border: 0.7px solid #dde3ec;
+    border-radius: 3px;
+  }
+
+  .formbold-form-file {
+    padding: 12px;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(83, 99, 135, 0.5);
+  }
+  .formbold-form-file::-webkit-file-upload-button {
+    display: none;
+  }
+  .formbold-form-file:before {
+    content: 'Upload';
+    display: inline-block;
+    background: #EEEEEE;
+    border: 0.5px solid #E7E7E7;
+    border-radius: 3px;
+    padding: 3px 12px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    color: #637381;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    margin-right: 10px;
+  }
+
+  .formbold-btnChang {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 14px 25px;
+    border: none;
+    font-weight: 500;
+    background-color: #6a64f1;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+  }
+  .formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .formbold-w-45 {
+    width: 45%;
+  }
+</style>
+
+
+
+<div class="img">
+    <img class="img" src="@url" alt="Italian Trulli">
+</div>
+
+
+@using System.Net.Http;
+@using Newtonsoft.Json;
+@using System.Text;
+@using System.Net.Http.Headers;
+@using System.Text.RegularExpressions;
+
+@inject HttpClient Http;
+@code {
+
+    string mainobject = "";
+    string focus = "";
+    string adjective1 = "";
+    string adjective2 = "";
+    string style1 = "";
+    string style2 = "";
+    string style3 = "";
+    string reference = "";
+    /*string topic = "";*/
+    string response = "";
+    string url = "";
+    private async Task Generateimge()
+    {
+        var apiKey = "(()))";
+        Http.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}");
+
+        var jsonContent = new
+        {
+            prompt = "INPUT = {focus}"
+    + "\nOUTPUT = {description} \\n ![IMG](https://image.pollinations.ai/prompt/{description})"
+    + "\n{description} ="
+    + "\n{focusDetailed},%20{adjective1},%20{adjective2},%20{visualStyle1},%20{visualStyle2},%20{visualStyle3},%20{artistReference}"
+    + "\nINPUT = " + $"{mainobject}"
+    + "\nOUTPUT = " + $"{focus}" + "," + $"{adjective1}" + "," + $"{adjective2}" + "," + $"{style1}" + "," + $"{style2}" + $"{style3}",
+            /*prompt = $"{topic}",*/
+            model = "text-davinci-003",
+            max_tokens = 1000
+        };
+
+        var responseContent = await Http.PostAsync("https://api.openai.com/v1/completions", new StringContent(JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
+
+        var resContext = await responseContent.Content.ReadAsStringAsync();
+        var data = JsonConvert.DeserializeObject<dynamic>(resContext);
+        response = data.choices[0].text;
+        string pattern = @"\(([^)]+)\)";
+        Match match = Regex.Match(response, pattern);
+
+        if (match.Success)
+        {
+            url = match.Groups[1].Value;
+            Console.WriteLine(url);
+        }
+        else
+        {
+            Console.WriteLine("URL not found");
+        }
+
+
+    }
+}
